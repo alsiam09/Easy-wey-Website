@@ -7,6 +7,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import RootLaOut from './Page/RootLaOut'
 import MainHome from './Page/MainHome'
 import Intro from './componat/Intro'
+import ToLet from './Page/ToLet'
 
 function App() {
   let [ open , setOpen ] = useState(false)
@@ -18,6 +19,7 @@ function App() {
   const Router = createBrowserRouter(createRoutesFromElements(
     <Route element={<RootLaOut/>}>
       <Route path='/' element={<MainHome/>} ></Route>
+      <Route path='/To-let' element={<ToLet/>} ></Route>
     </Route>
   ))
   return (
