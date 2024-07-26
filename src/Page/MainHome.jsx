@@ -1,8 +1,9 @@
 import React from 'react'
+import Sarvis from '../componat/Sarvis'
 
 const MainHome = () => {
   return (
-    <div>MainHome</div>
+    <Sarvis/>
   )
 }
 
